@@ -8,6 +8,7 @@ public class Y extends X {
 //    super.set(map);
     set(map);//呼叫自己
     set(map.values());//Collection<String> 呼叫X 的set
+    super.set(map.values());
 //    map.forEach((k,v)->set(v));  這是set(String)
   }
 }
